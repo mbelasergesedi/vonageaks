@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mbelasergesedi/vonageaks/issues"
   },
-  "homepage": "https://github.com/mbelasergesedi/vonageaks#readme"
+  "homepage": "https://github.com/mbelasergesedi/vonageaks#readme",
+  "dependencies": {
+    "@vonage/server-sdk": "^3.0.9"
+  }
 }
