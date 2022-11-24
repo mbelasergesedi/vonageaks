@@ -1,0 +1,19 @@
+{
+  "name": "vonageaks",
+  "version": "1.0.0",
+  "description": "Send Sms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbelasergesedi/vonageaks.git"
+  },
+  "author": "Aksantinet SARL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbelasergesedi/vonageaks/issues"
+  },
+  "homepage": "https://github.com/mbelasergesedi/vonageaks#readme"
+}
