@@ -6,7 +6,7 @@ const vonage = new Vonage({
 })
 
 const from = 'VONAGE_BRAND_NAME'
-const to = '+32487757115'
+const to = '32487757115'
 const text = 'A text message sent using the Vonage SMS API'
 
 async function sendSMS() {
