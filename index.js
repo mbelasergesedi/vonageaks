@@ -1,3 +1,5 @@
+const app = require('express')()
+const bodyParser = require('body-parser')
 const { Vonage } = require('@vonage/server-sdk')
 
 const vonage = new Vonage({
@@ -8,6 +10,11 @@ const vonage = new Vonage({
 const from = 'VONAGE_BRAND_NAME'
 const to = '+32487757115'
 const text = 'A text message sent using the Vonage SMS API'
+
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({
+  extended: true
+}))
 
 async function sendSMS() {
     await vonage.sms.send({to, from, text})
