@@ -3,10 +3,9 @@ const bodyParser = require('body-parser')
 const { Vonage } = require('@vonage/server-sdk')
 
 const vonage = new Vonage({
-    apiKey: "586a6f9f",
-    apiSecret: "UIsdpWKqRe4JSDZb"
-})
-
+    apiKey: process.env.VONAGE_API_KEY,
+    apiSecret: process.env.VONAGE_API_SECRET
+  })
 const from = 'VONAGE_BRAND_NAME'
 const to = '+32487757115'
 const text = 'A text message sent using the Vonage SMS API'
