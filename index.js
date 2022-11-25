@@ -7,7 +7,7 @@ const vonage = new Vonage({
     apiSecret: process.env.VONAGE_API_SECRET
   })
 const from = 'VONAGE_BRAND_NAME'
-const to = '32487757115'
+const to = '32476039595'
 const text = 'A text message sent using the Vonage SMS API'
 
 app.use(bodyParser.json())
